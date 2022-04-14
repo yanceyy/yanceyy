@@ -12,5 +12,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # layout
+          config_display: regular
+          # plugin
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
+          # optimize configures
+          optimize: svg
+          experimental_features: --optimize-svg
+          # output
+          config_output: svg
