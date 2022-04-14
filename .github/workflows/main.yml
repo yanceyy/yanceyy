@@ -17,8 +17,11 @@ jobs:
           # plugin
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_topics: yes
+          plugin_topics_mode: icons
           # optimize configures
           optimize: svg
           experimental_features: --optimize-svg
           # output
           config_output: svg
+          
