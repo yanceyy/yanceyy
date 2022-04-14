@@ -19,6 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_topics: yes
           plugin_topics_mode: icons
+          plugin_topics_limit: 0
           # optimize configures
           optimize: svg
           experimental_features: --optimize-svg
